@@ -1,0 +1,13 @@
+name = "ExamplePkg"
+uuid = "09763c0a-6114-4c18-a394-dfe468862d77"
+authors = ["Eric Ekholm"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
